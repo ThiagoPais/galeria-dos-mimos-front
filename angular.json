@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "galeria-dos-mimos-front": {
+    "galeria-de-mimos-front": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -58,10 +58,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "galeria-dos-mimos-front:build:production"
+              "buildTarget": "galeria-de-mimos-front:build:production"
             },
             "development": {
-              "buildTarget": "galeria-dos-mimos-front:build:development"
+              "buildTarget": "galeria-de-mimos-front:build:development"
             }
           },
           "defaultConfiguration": "development"
